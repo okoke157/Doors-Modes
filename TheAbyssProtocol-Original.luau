@@ -28,14 +28,16 @@ safeCaption("For teach me wrote this")
 task.wait(2)
 safeCaption("Have fun!")
 
--- Intro UI Effect
+-- Intro UI Effect (Cấu trúc mới)
 pcall(function()
     local playerGui = LocalPlayer.PlayerGui
     local mainUI = playerGui:WaitForChild("MainUI")
-    local initiator = mainUI:WaitForChild("Initiator")
-    local shut = initiator:WaitForChild("Main_Game")
+    local mainFrame = mainUI:WaitForChild("MainFrame")
+    local templateIntro = mainFrame:WaitForChild("IntroText")
 
-    local intro = shut:FindFirstChild("IntroText") or Instance.new("TextLabel") 
+    local intro = templateIntro:Clone()
+    intro.Parent = mainUI
+    intro.Name = "The Abyss Protocol Intro"
     intro.Visible = true
     intro.Text = "The Abyssal Protocol"
     intro.TextTransparency = 0
@@ -62,6 +64,7 @@ pcall(function()
     task.wait(2.3)
     intro.Visible = false
     task.wait(4)
+    intro:Destroy()
 end)
 
 ---==================================================
