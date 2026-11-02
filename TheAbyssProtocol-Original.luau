@@ -1,3 +1,9 @@
+-- Run script only once.
+if _G.TheAbyssProtocolLoaded then
+    warn("The Abyss Protocol is already loaded and running!")
+    return
+end
+_G.TheAbyssProtocolLoaded = true
 -- Initialization intro captions
 local successInit, errInit = pcall(function()
     require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("U Executed The Abyss Protocol v0.1", true)
