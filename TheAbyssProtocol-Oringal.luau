@@ -37,7 +37,7 @@ pcall(function()
 
     local intro = shut:FindFirstChild("IntroText") or Instance.new("TextLabel") 
     intro.Visible = true
-    intro.Text = "Th3 4by55al Pr0t0c0l"
+    intro.Text = "The Abyssal Protocol"
     intro.TextTransparency = 0
 
     local underline = intro:FindFirstChild("Underline")
