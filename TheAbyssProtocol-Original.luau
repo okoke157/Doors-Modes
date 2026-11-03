@@ -41,6 +41,7 @@ coroutine.wrap(function()
         wait(15)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/viet09544/Entity-/refs/heads/main/Smile.luau"))()
 
 coroutine.wrap(function()
     while true do
