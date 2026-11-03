@@ -45,49 +45,75 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/viet09544/Entity-/ref
      end
 end)()
 
-task.wait(function()
-math.random(200,300))
 coroutine.wrap(function()
+    
+        task.wait(math.random(20, 30))
+
     while true do
-        wait(25)
+        task.wait(25)
+
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/viet09544/Entity-/refs/heads/main/ScaryEntity.luau"))()
-   end
+   
+    end
 end)()
 
 coroutine.wrap(function()
+    
+        task.wait(math.random(30, 50))
+
     while true do
         wait(45)
+
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/viet09544/Entity-/refs/heads/main/Phantom.luau"))()
+     
      end
 end)()
 
 coroutine.wrap(function()
+    
+        task.wait(math.random(10, 25))
+
     while true do
         wait(75)
+
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/viet09544/Entity-/refs/heads/main/Glitcher.luau"))()
      end
 end)()
 
 coroutine.wrap(function()
+    
+        task.wait(math.random(30, 100))
+
     while true do
         wait(75)
+
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/viet09544/Entity-/refs/heads/main/Void.luau"))() 
     end
 end)()
 
 coroutine.wrap(function()
+    
+task.wait(math.random(20, 30))
+
     while true do
-        wait(95)
+        task.wait(95)
+
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/viet09544/Entity-/refs/heads/main/TheDarknessEyes.luau"))()
-    end
+ 
+     end
 end)()
