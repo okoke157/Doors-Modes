@@ -43,7 +43,7 @@ coroutine.wrap(function()
         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/viet09544/Entity-/refs/heads/main/Smile.luau"))()
      end
-end)
+end)()
 
 coroutine.wrap(function()
     while true do
@@ -52,7 +52,7 @@ coroutine.wrap(function()
         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/viet09544/Entity-/refs/heads/main/ScaryEntity.luau"))()
    end
-end)
+end)()
 
 coroutine.wrap(function()
     while true do
@@ -61,7 +61,7 @@ coroutine.wrap(function()
         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/viet09544/Entity-/refs/heads/main/Phantom.luau"))()
      end
-end)
+end)()
 
 coroutine.wrap(function()
     while true do
@@ -70,7 +70,7 @@ coroutine.wrap(function()
         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/viet09544/Entity-/refs/heads/main/Glitcher.luau"))()
      end
-end)
+end)()
 
 coroutine.wrap(function()
     while true do
@@ -79,7 +79,7 @@ coroutine.wrap(function()
         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/viet09544/Entity-/refs/heads/main/Void.luau"))() 
     end
-end)
+end)()
 
 coroutine.wrap(function()
     while true do
@@ -88,4 +88,4 @@ coroutine.wrap(function()
         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/viet09544/Entity-/refs/heads/main/TheDarknessEyes.luau"))()
     end
-end)
+end)()
