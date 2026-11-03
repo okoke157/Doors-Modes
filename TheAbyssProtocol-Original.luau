@@ -42,6 +42,8 @@ coroutine.wrap(function()
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/viet09544/Entity-/refs/heads/main/Smile.luau"))()
+     end
+end)
 
 coroutine.wrap(function()
     while true do
@@ -49,6 +51,8 @@ coroutine.wrap(function()
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/viet09544/Entity-/refs/heads/main/ScaryEntity.luau"))()
+   end
+end)
 
 coroutine.wrap(function()
     while true do
@@ -56,29 +60,32 @@ coroutine.wrap(function()
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/viet09544/Entity-/refs/heads/main/Phantom.luau"))()
+     end
+end)
 
 coroutine.wrap(function()
     while true do
         wait(75)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/viet09544/Entity-/refs/heads/main/Glitcher.luau"))()
+     end
+end)
 
 coroutine.wrap(function()
     while true do
         wait(75)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/viet09544/Entity-/refs/heads/main/Void.luau"))() 
+    end
+end)
 
 coroutine.wrap(function()
     while true do
         wait(95)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
-
-coroutine.wrap(function()
-    while true do
-        wait(105)
-        game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
-        wait(0)
-
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/viet09544/Entity-/refs/heads/main/TheDarknessEyes.luau"))()
+    end
+end)
