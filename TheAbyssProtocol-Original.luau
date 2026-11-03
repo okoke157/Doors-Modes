@@ -48,6 +48,7 @@ coroutine.wrap(function()
         wait(25)
         game.ReplicatedStorage.GameData.LatestRoom.Changed:Wait()
         wait(0)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/viet09544/Entity-/refs/heads/main/ScaryEntity.luau"))()
 
 coroutine.wrap(function()
     while true do
