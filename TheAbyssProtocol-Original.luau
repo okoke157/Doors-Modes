@@ -45,6 +45,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/viet09544/Entity-/ref
      end
 end)()
 
+task.wait(function()
+math.random(200,300))
 coroutine.wrap(function()
     while true do
         wait(25)
