@@ -14,7 +14,9 @@ task.wait(2) require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Ga
 task.wait(2) require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("p°/•£€~♤•>~£`□□^_", true)
 task.wait(2) require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("£••££~*•£•££><^^♤&&", true)
 task.wait(2) require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Special thanks for Zaydtruck🇯🇴🍉", true)
+task.wait(2) require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("For wrote this script", true)
 task.wait(2) require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game).caption("Have fun :0", true)
+
 
 local shut = game.Players.LocalPlayer.PlayerGui.MainUI.MainFrame.IntroText
 local intro = shut:Clone()
